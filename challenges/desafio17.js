@@ -1,8 +1,8 @@
-const ttt = db.produtos.countDocuments({});
+const total = db.produtos.countDocuments({});
 
 db.resumoProdutos.insertOne({
   franquia: "McDonalds",
-  totalProdutos: ttt,
+  totalProdutos: total,
 }, {});
 
 // retorna franquia, totalProdutos
