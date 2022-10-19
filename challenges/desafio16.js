@@ -4,7 +4,6 @@ db.produtos.updateOne({
   $set: { ultimaModificacao: new Date() },
 }, {});
 
-// retorna nome - todos em q ultimaModificacao existir
 db.produtos.find({
   ultimaModificacao: { $exists: true },
 }, {

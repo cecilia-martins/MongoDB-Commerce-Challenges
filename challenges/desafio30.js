@@ -4,7 +4,6 @@ db.produtos.updateOne({
   $unset: { curtidas: "" },
 }, {});
 
-// nome e descricaoSite
 db.produtos.find({}, {
   _id: 0,
   nome: 1,

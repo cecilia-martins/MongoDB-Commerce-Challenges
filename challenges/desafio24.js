@@ -7,7 +7,6 @@ db.produtos.updateMany({}, {
   },
 }, {});
 
-// retotna nome e valores
 db.produtos.find({}, {
   _id: 0,
   nome: 1,

@@ -5,7 +5,6 @@ db.resumoProdutos.insertOne({
   totalProdutos: total,
 }, {});
 
-// retorna franquia, totalProdutos
 db.resumoProdutos.find({}, {
   _id: 0,
   franquia: 1,

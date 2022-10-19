@@ -7,7 +7,6 @@ db.produtos.updateMany({
   $addToSet: { tags: "contém sódio" },
 }, {});
 
-// retorna nome e tags
 db.produtos.find({}, {
   _id: 0,
   nome: 1,
