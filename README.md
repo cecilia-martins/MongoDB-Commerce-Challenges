@@ -17,8 +17,6 @@ Nesse projeto, nós trabalhamos com o banco de dados `commerce`, que contém dad
 
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="35" height="35"/> </a>
 
-<br>
-
 ## Desafios ##
 
 
